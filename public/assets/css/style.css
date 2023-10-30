@@ -1,0 +1,86 @@
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.user-icon{
+    padding: 10px 15px;
+    background: lightgray;
+    border-radius: 50%!important;
+    display: inline-block;
+}
+.card-header {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.list-group-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.comment-form {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.comment-form h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comment-form .list-group-item {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.comment-form .list-group-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.comment-form form {
+    margin-top: 15px;
+}
+
+.comment-form textarea {
+    height: 100px;
+}
+
+.comment-form {
+    margin-top: 10px;
+}
+#heart-button {
+    color: white; 
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+#heart-button.selected {
+    color: red; /* Selected color */
+}
+tr>th , tr>td{
+    text-align:center;
+}
+.card-1{
+     background: #ebd567!important;
+}
+
+.card-2{
+    background: #7be579!important;
+
+}
+.heart{
+    color: red !important;
+  }
+  .heart-button{
+    outline: none;
+  }
